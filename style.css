@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: black;
+  background-color: #111833;
 }
 
 .container {
@@ -16,6 +16,7 @@ body {
 .photo-grid {
   display: grid;
   grid-gap: 32px;
+  margin-top: 30px;
 }
 
 .img-responsive {
