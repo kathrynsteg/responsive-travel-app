@@ -13,6 +13,11 @@ body {
   grid-gap: 64px;
 }
 
+.photo-grid {
+  display: grid;
+  grid-gap: 32px;
+}
+
 .img-responsive {
   max-width: 100%;
   display: block;
@@ -81,7 +86,7 @@ section {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/tokyo.jpg");
+    url("images/tokyo-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -124,6 +129,11 @@ main {
 
 .main-image {
   max-width: 86%;
+}
+
+.grid-photos {
+  max-width: 100%;
+  display: block;
 }
 
 main h2 {
